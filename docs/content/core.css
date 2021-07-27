@@ -1,0 +1,104 @@
+/*
+    Main Website CSS
+*/
+
+
+/*
+    Custom Fonts
+*/
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@900&display=swap');
+
+@font-face {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mavenpro/v22/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8SX21nejog.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Maven Pro SemiBold';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mavenpro/v22/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8cLx1nejog.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Maven Pro Bold';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mavenpro/v22/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8aXx1nejog.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Maven Pro Black';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mavenpro/v22/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8Yzx1nejog.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+Body {
+    background-color: gray;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Maven Pro Black' sans-serif;
+    size: 30px
+}
+
+h2 {
+    font-family: 'Maven Pro Bold' sans-serif;
+    size: 26px
+}
+
+h3 {
+    font-family: 'Maven Pro SemiBold' sans-serif;
+    size: 24px
+}
+
+h4 {
+    font-family: 'Maven Pro SemiBold' sans-serif;
+    size: 20px
+}
+
+/* TOPBAR */
+div .topbarMain {
+    width: 100%;
+    position: fixed;
+}
+ul .topbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li .topbar-button {
+    display: inline;
+    float: left;
+}
+li a .topbar-buttontext {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover .topbar {
+    background-color: salmon;
+}
+li a .topbar-button-a {
+    background-color: sienna;
+}
